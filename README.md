@@ -49,7 +49,7 @@ Certainly! Here's the updated usage section with instructions for different oper
 
 ### For Linux:
 
-3. Install Sharp: `npm install --include=optional --arch=x64 --platform=linux sharp@0.32.6`
+3. Install Sharp: `npm uninstall sharp & npm install --include=optional --arch=x64 --platform=linux sharp@0.32.6`
 
 4. Run the server: `npm run start`
 5. Access the serverless functions to fetch manga images, resources, and generate anime wallpapers.
