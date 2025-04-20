@@ -1,5 +1,9 @@
 [build]
-  functions = "functions"
+  functions = "functions" 
+
+[dev]
+  port = 7777
+  staticServerPort = 4444
   
 [[headers]]
   for = "/*"
